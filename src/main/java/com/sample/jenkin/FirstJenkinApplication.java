@@ -14,7 +14,6 @@ public class FirstJenkinApplication {
 		return "Welcome to Jenkins";
 	}
 	
-	
 	public static void main(String[] args) {
 		SpringApplication.run(FirstJenkinApplication.class, args);
 	}
