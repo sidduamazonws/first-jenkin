@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class FirstJenkinApplication {
 
 	@GetMapping("/message")
-	public String message() {
-		return "Welcome to Jenkins";
+	public String message(String message) {
+		return "Welcome to Jenkins after change...";
 	}
 	
 	public static void main(String[] args) {
