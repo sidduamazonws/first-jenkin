@@ -11,7 +11,7 @@ public class FirstJenkinApplication {
 
 	@GetMapping("/message")
 	public String message() {
-		return "Welcome to Jenkins
+		return "Welcome to Jenkins";
 	}
 	
 	public static void main(String[] args) {
